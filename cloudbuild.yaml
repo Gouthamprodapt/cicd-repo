@@ -9,7 +9,7 @@ steps:
     entrypoint: gcloud
     args:
       [
-        'run', 'deploy', 'my-service',
+        'run', 'deploy', 'santhosh-app',
         '--image', 'us-central1-docker.pkg.dev/project-317606fd-894f-479f-aeb/cicd-registry/santhosh-app:$SHORT_SHA',
         '--region', 'us-central1',
         '--platform', 'managed',
